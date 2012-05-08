@@ -1,0 +1,15 @@
+#!/usr/local/bin/ruby
+# -*- encoding: US-ASCII -*-
+
+require 'gettext'
+require 'nethack_utils'
+
+include GetText
+bindtextdomain 'nethack_utils'
+
+arg = ARGV.shift
+today = arg ? Date.parse(arg) : Date.today
+
+if today.friday_13th?
+  puts _('Watch out!  Bad things can happen on Friday the 13th.')
+end

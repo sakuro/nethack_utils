@@ -1,0 +1,16 @@
+#!/usr/local/bin/ruby
+# -*- encoding: US-ASCII -*-
+
+require 'nethack_utils'
+require 'gettext'
+
+include GetText
+bindtextdomain 'nethack_utils'
+
+today = Date.today
+
+if today.new_moon?
+  puts _('Be careful!  New moon tonight.')
+elsif today.full_moon?
+  puts _('You are lucky!  Full moon tonight.')
+end

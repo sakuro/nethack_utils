@@ -1,0 +1,36 @@
+# Nethack Utils gem.
+# Copyright (C) 2012 OZAWA Sakuro
+# This file is distributed under the same license as the Nethack Utils gem package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nethack_utils 1.0.0\n"
+"POT-Creation-Date: 2012-05-09 01:19+0900\n"
+"PO-Revision-Date: 2012-05-08 21:06+0900\n"
+"Last-Translator: OZAWA Sakuro <sakuro@2238club.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/nethack_utils/rumor.rb:27
+msgid "rumors.tru"
+msgstr "jrumors.tru"
+
+#: lib/nethack_utils/rumor.rb:31
+msgid "rumors.fal"
+msgstr "jrumors.fal"
+
+#: bin/friday_13th:13
+msgid "Watch out!  Bad things can happen on Friday the 13th."
+msgstr "用心しろ！１３日の金曜日にはよくないことがある．"
+
+#: bin/phase_of_the_moon:12
+msgid "Be careful!  New moon tonight."
+msgstr "注意しろ！今晩は新月だ．"
+
+#: bin/phase_of_the_moon:14
+msgid "You are lucky!  Full moon tonight."
+msgstr "ラッキー！今晩は満月だ．"
