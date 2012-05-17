@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nethack_utils 1.0.0\n"
-"POT-Creation-Date: 2012-05-09 01:19+0900\n"
+"POT-Creation-Date: 2012-05-17 21:00+0900\n"
 "PO-Revision-Date: 2012-05-08 21:06+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: lib/nethack_utils/rumor.rb:27
-msgid "rumors.tru"
-msgstr ""
-
-#: lib/nethack_utils/rumor.rb:31
-msgid "rumors.fal"
-msgstr ""
-
-#: bin/friday_13th:13
+#: lib/nethack_utils/friday_13th.rb:8
 msgid "Watch out!  Bad things can happen on Friday the 13th."
 msgstr ""
 
-#: bin/phase_of_the_moon:12
+#: lib/nethack_utils/phase_of_the_moon.rb:6
+msgid "You are lucky!  Full moon tonight."
+msgstr ""
+
+#: lib/nethack_utils/phase_of_the_moon.rb:7
 msgid "Be careful!  New moon tonight."
 msgstr ""
 
-#: bin/phase_of_the_moon:14
-msgid "You are lucky!  Full moon tonight."
+#: lib/nethack_utils/rumor.rb:29
+msgid "rumors.tru"
+msgstr ""
+
+#: lib/nethack_utils/rumor.rb:33
+msgid "rumors.fal"
 msgstr ""

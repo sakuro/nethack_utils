@@ -2,6 +2,10 @@
 
 module NethackUtils
   module PhaseOfTheMoon
+    extend GetText
+    FULL_MOON_MESSAGE = _('You are lucky!  Full moon tonight.')
+    NEW_MOON_MESSAGE = _('Be careful!  New moon tonight.')
+
     NEW_MOON = 0
     private_constant :NEW_MOON
 
