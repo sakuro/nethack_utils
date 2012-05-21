@@ -12,3 +12,5 @@ today = arg ? Date.parse(arg) : Date.today
 
 motd = today.motd
 puts motd[:fri13th] if motd.key?(:fri13th)
+
+exit 0

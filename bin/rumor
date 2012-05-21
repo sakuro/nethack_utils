@@ -9,3 +9,5 @@ bindtextdomain('nethack_utils')
 
 include NethackUtils::Rumor
 puts rumor
+
+exit 0
