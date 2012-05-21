@@ -7,7 +7,8 @@ require 'gettext'
 include GetText
 bindtextdomain('nethack_utils')
 
-today = Date.today
+arg = ARGV.shift
+today = arg ? Date.parse(arg) : Date.today
 
 motd = today.motd
 puts motd[:pom] if motd.key?(:pom)
