@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nethack_utils 1.0.0\n"
-"POT-Creation-Date: 2012-05-17 21:00+0900\n"
+"POT-Creation-Date: 2012-05-18 02:45+0900\n"
 "PO-Revision-Date: 2012-05-08 21:06+0900\n"
 "Last-Translator: OZAWA Sakuro <sakuro@2238club.org>\n"
 "Language: ja\n"
@@ -15,22 +15,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/nethack_utils/friday_13th.rb:8
+#: lib/nethack_utils/core_ext/date/message_of_the_day.rb:16
 msgid "Watch out!  Bad things can happen on Friday the 13th."
 msgstr "用心しろ！１３日の金曜日にはよくないことがある．"
 
-#: lib/nethack_utils/phase_of_the_moon.rb:6
-msgid "You are lucky!  Full moon tonight."
-msgstr "ラッキー！今晩は満月だ．"
-
-#: lib/nethack_utils/phase_of_the_moon.rb:7
+#: lib/nethack_utils/core_ext/date/message_of_the_day.rb:19
 msgid "Be careful!  New moon tonight."
 msgstr "注意しろ！今晩は新月だ．"
 
-#: lib/nethack_utils/rumor.rb:29
+#: lib/nethack_utils/core_ext/date/message_of_the_day.rb:21
+msgid "You are lucky!  Full moon tonight."
+msgstr "ラッキー！今晩は満月だ．"
+
+#: lib/nethack_utils/rumor.rb:30
 msgid "rumors.tru"
 msgstr "jrumors.tru"
 
-#: lib/nethack_utils/rumor.rb:33
+#: lib/nethack_utils/rumor.rb:34
 msgid "rumors.fal"
 msgstr "jrumors.fal"

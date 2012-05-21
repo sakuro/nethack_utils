@@ -2,9 +2,10 @@
 # -*- encoding: US-ASCII -*-
 
 require 'nethack_utils'
+require 'gettext'
 
 include GetText
-bindtextdomain 'nethack_utils'
+bindtextdomain('nethack_utils')
 
 include NethackUtils::Rumor
 puts rumor

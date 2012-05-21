@@ -1,15 +1,14 @@
 #!/usr/local/bin/ruby
 # -*- encoding: US-ASCII -*-
 
-require 'gettext'
 require 'nethack_utils'
+require 'gettext'
 
 include GetText
-bindtextdomain 'nethack_utils'
+bindtextdomain('nethack_utils')
 
 arg = ARGV.shift
 today = arg ? Date.parse(arg) : Date.today
 
-if today.friday_13th?
-  puts NethackUtils::Friday13th::MESSAGE
-end
+motd = today.motd
+puts motd[:fri13th] if motd.key?(:fri13th)

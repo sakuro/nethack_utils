@@ -5,12 +5,9 @@ require 'nethack_utils'
 require 'gettext'
 
 include GetText
-bindtextdomain 'nethack_utils'
+bindtextdomain('nethack_utils')
 
 today = Date.today
 
-if today.new_moon?
-  puts NethackUtils::PhaseOfTheMoon::NEW_MOON_MESSAGE
-elsif today.full_moon?
-  puts NethackUtils::PhaseOfTheMoon::FULL_MOON_MESSAGE
-end
+motd = today.motd
+puts motd[:pom] if motd.key?(:pom)
