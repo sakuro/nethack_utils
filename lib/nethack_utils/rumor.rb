@@ -11,7 +11,7 @@ module NethackUtils
     def rumor(reliability=nil)
       reliability ||= rand
       rumors_file = reliability > 0.5 ? truthy_rumors_file : falsy_rumors_file
-      open(rumors_file) {|io| io.lines.inject {|r, l| rand($.) < 1 ? l : r } }.chomp
+      open(rumors_file) {|io| io.each_line.inject {|r, l| rand($.) < 1 ? l : r } }.chomp
     end
 
     private
